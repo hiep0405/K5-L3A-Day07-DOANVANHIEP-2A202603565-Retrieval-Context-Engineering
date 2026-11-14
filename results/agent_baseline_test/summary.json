@@ -1,0 +1,36 @@
+{
+  "config_name": "Baseline Agent (TF-IDF, top_k=3, budget=800, max_searches=2) [TEST]",
+  "split": "test",
+  "top_k": 3,
+  "budget": 800,
+  "max_searches": 2,
+  "cases": 7,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "grounded_answer": {
+    "0": 2,
+    "1": 1,
+    "2": 2,
+    "N": 5,
+    "mean": 1.0
+  },
+  "citation_validity": {
+    "n": 3,
+    "N": 4
+  },
+  "answer_citation_coverage": {
+    "n": 3,
+    "N": 3
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 2,
+    "N": 5
+  }
+}

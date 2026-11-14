@@ -1,0 +1,291 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Độ tuổi lao động tối thiểu của người lao động theo Bộ luật Lao động 2019 là bao nhiêu tuổi?",
+    "expected_answer": "Đủ 15 tuổi (trừ trường hợp quy định tại Mục 1 Chương XI)",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 3,
+        "evidence": "Độ tuổi lao động tối thiểu của người lao động là đủ 15 tuổi, trừ trường hợp quy định tại Mục 1 Chương XI của Bộ\nluật này."
+      }
+    ]
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Hành vi phân biệt đối xử trong lao động có bị nghiêm cấm theo luật không?",
+    "expected_answer": "Có, phân biệt đối xử trong lao động là hành vi bị nghiêm cấm.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 7,
+        "evidence": "1. Phân biệt đối xử trong lao động."
+      }
+    ]
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Bộ luật Lao động 2019 quy định hợp đồng lao động được giao kết theo những loại nào?",
+    "expected_answer": "Hợp đồng lao động không xác định thời hạn và hợp đồng lao động xác định thời hạn (không quá 36 tháng).",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 11,
+        "evidence": "được giao kết theo một trong các loại sau đây:\na) Hợp đồng lao động không xác định thời"
+      }
+    ]
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Thời gian thử việc tối đa đối với công việc của người quản lý doanh nghiệp là bao nhiêu ngày?",
+    "expected_answer": "Không quá 180 ngày",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 14,
+        "evidence": "1. Không quá 180 ngày đối với công việc của người quản lý doanh nghiệp theo quy định của Luật Doanh nghiệp,\nLuật Quản lý, sử dụng vốn nhà nước đầu tư vào sản xuất, kinh doanh tại doanh nghiệp;"
+      }
+    ],
+    "filter": {
+      "chapter": "CHƯƠNG_III"
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Tiền lương của người lao động trong thời gian thử việc ít nhất phải bằng bao nhiêu phần trăm mức lương của công việc đó?",
+    "expected_answer": "Ít nhất bằng 85% mức lương của công việc đó.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 14,
+        "evidence": "gian thử việc do hai bên thỏa thuận"
+      }
+    ]
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Có được áp dụng thử việc đối với người lao động ký hợp đồng lao động có thời hạn dưới 01 tháng không?",
+    "expected_answer": "Không áp dụng thử việc đối với hợp đồng lao động có thời hạn dưới 01 tháng.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 14,
+        "evidence": "3. Không áp dụng thử việc đối với người lao động giao kết hợp đồng lao động có thời hạn dưới 01 tháng."
+      }
+    ]
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "dien_dat_lai",
+    "question": "Người làm việc bán thời gian (không trọn thời gian) có bị đối xử bất bình đẳng so với người làm việc trọn thời gian không?",
+    "expected_answer": "Không, người làm việc không trọn thời gian được bình đẳng trong việc thực hiện quyền và nghĩa vụ, bình đẳng về cơ hội và không bị phân biệt đối xử.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 17,
+        "evidence": "việc không trọn thời gian"
+      }
+    ]
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Tiền lương làm căn cứ để tính tiền trợ cấp thôi việc cho người lao động được xác định như thế nào?",
+    "expected_answer": "Là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi thôi việc.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 27,
+        "evidence": "để tính trợ cấp thôi việc là"
+      }
+    ]
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata_filter",
+    "question": "Người sử dụng lao động có được ép buộc người lao động phải mua hàng hóa, dịch vụ của doanh nghiệp mình bằng tiền lương không?",
+    "expected_answer": "Không được ép buộc người lao động chi tiêu lương vào việc mua hàng hóa, sử dụng dịch vụ của người sử dụng lao động hoặc của đơn vị khác.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 59,
+        "evidence": "Người sử dụng lao động"
+      }
+    ],
+    "filter": {
+      "chapter": "CHƯƠNG_VI"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Người lao động làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bằng bao nhiêu phần trăm lương bình thường?",
+    "expected_answer": "Ít nhất bằng 200%",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 61,
+        "evidence": "b) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;"
+      }
+    ]
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thời giờ làm việc bình thường của người lao động không được vượt quá bao nhiêu giờ trong một ngày và trong một tuần?",
+    "expected_answer": "Không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 65,
+        "evidence": "1. Thời giờ làm việc bình thường không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần."
+      }
+    ]
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Khi làm việc theo ca vào ban đêm, người lao động được nghỉ giữa giờ ít nhất bao nhiêu phút liên tục?",
+    "expected_answer": "Ít nhất 45 phút liên tục.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 68,
+        "evidence": "được nghỉ giữa giờ ít nhất 45 phút liên\ntục"
+      }
+    ]
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Dịp lễ Quốc khánh nước ta, người lao động được nghỉ làm việc và hưởng nguyên lương trong mấy ngày?",
+    "expected_answer": "02 ngày (ngày 02 tháng 9 dương lịch và 01 ngày liền kề trước hoặc sau).",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 69,
+        "evidence": "đ) Quốc khánh: 02 ngày (ngày 02 tháng 9 dương lịch và 01 ngày liền kề trước hoặc sau);"
+      }
+    ]
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Người sử dụng lao động có được kỷ luật lao động đối với nhân viên đang trong thời gian nghỉ ốm đau, điều dưỡng không?",
+    "expected_answer": "Không được xử lý kỷ luật lao động trong thời gian nghỉ ốm đau, điều dưỡng.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 76,
+        "evidence": "của người sử dụng lao"
+      }
+    ]
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "truc_tiep",
+    "question": "Thời hiệu xử lý kỷ luật lao động đối với các hành vi thông thường là bao lâu kể từ ngày xảy ra vi phạm?",
+    "expected_answer": "06 tháng kể từ ngày xảy ra hành vi vi phạm.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 78,
+        "evidence": "1. Thời hiệu xử lý kỷ luật lao động là 06 tháng kể từ ngày xảy ra hành vi vi phạm"
+      }
+    ]
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "metadata_filter",
+    "question": "Bộ luật Lao động 2019 quy định bao nhiêu hình thức xử lý kỷ luật lao động?",
+    "expected_answer": "Có 04 hình thức: Khiển trách; Kéo dài thời hạn nâng lương không quá 06 tháng; Cách chức; Sa thải.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 78,
+        "evidence": "xử lý kỷ luật lao"
+      }
+    ],
+    "filter": {
+      "chapter": "CHƯƠNG_VIII"
+    }
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Lao động nữ mang thai từ tháng thứ mấy thì người sử dụng lao động không được bố trí làm việc ban đêm, làm thêm giờ hoặc đi công tác xa?",
+    "expected_answer": "Từ tháng thứ 07 (hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo).",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 85,
+        "evidence": "1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác\nxa trong trường hợp sau đây:\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;"
+      }
+    ]
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "dieu_kien_ngoai_le",
+    "question": "Thời giờ làm việc của lao động chưa đủ 15 tuổi được quy định tối đa là bao nhiêu giờ một ngày và một tuần?",
+    "expected_answer": "Không quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 91,
+        "evidence": "1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần;\nkhông được làm thêm giờ, làm việc vào ban đêm."
+      }
+    ]
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Người lao động làm thêm giờ vào ngày nghỉ lễ, tết thì được hưởng ít nhất bao nhiêu phần trăm lương?",
+    "expected_answer": "Ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 61,
+        "evidence": "c) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ\ncó hưởng lương đối với người lao động hưởng lương ngày."
+      }
+    ]
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "truc_tiep",
+    "question": "Bộ luật Lao động số 45/2019/QH14 chính thức có hiệu lực thi hành từ ngày nào?",
+    "expected_answer": "Từ ngày 01 tháng 01 năm 2021.",
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 145,
+        "evidence": "1. Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021."
+      }
+    ]
+  }
+]

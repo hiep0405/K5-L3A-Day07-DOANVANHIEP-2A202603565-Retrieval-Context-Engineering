@@ -1,0 +1,419 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "question": "Bộ luật Lao động 2019 quy định bao nhiêu hình thức xử lý kỷ luật lao động?",
+    "filter": {
+      "chapter": "CHƯƠNG_VIII"
+    },
+    "top_k": 4,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 78,
+        "evidence": "xử lý kỷ luật lao"
+      }
+    ],
+    "results": [
+      {
+        "id": "bo-luat-lao-dong-2019_p73_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 73,
+        "text": "Mục 1. KỶ LUẬT LAO ĐỘNG\nĐiều 117. Kỷ luật lao động\nKỷ luật lao động là những quy định về việc tuân theo thời gian, công nghệ và điều hành sản xuất, kinh doanh do\nngười sử dụng lao động ban hành trong nội quy lao động và do pháp luật quy định.\nĐiều 118. Nội quy lao động\n1. Người sử dụng lao động phải ban hành nội quy lao động, nếu sử dụng từ 10 người lao động trở lên thì nội quy\nlao động phải bằng văn bản.\n2. Nội dung nội quy lao động không được trái với pháp luật về lao động và quy định của pháp luật có liên quan.\nNội quy lao động bao gồm những nội dung chủ yếu sau đây:",
+        "metadata": {
+          "chapter": "CHƯƠNG_VIII",
+          "strategy": "B"
+        },
+        "score": 0.0311,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p80_b_1",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 80,
+        "text": "2. Phạt tiền, cắt lương thay việc xử lý kỷ luật lao động.\n3. Xử lý kỷ luật lao động đối với người lao động có hành vi vi phạm không được quy định trong nội quy lao động\nhoặc không thỏa thuận trong hợp đồng lao động đã giao kết hoặc pháp luật về lao động không có quy định.\nĐiều 128. Tạm đình chỉ công việc",
+        "metadata": {
+          "chapter": "CHƯƠNG_VIII",
+          "strategy": "B"
+        },
+        "score": 0.03105,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p78_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 78,
+        "text": "6. Chính phủ quy định trình tự, thủ tục xử lý kỷ luật lao động.\nĐiều 123. Thời hiệu xử lý kỷ luật lao động\n1. Thời hiệu xử lý kỷ luật lao động là 06 tháng kể từ ngày xảy ra hành vi vi phạm; trường hợp hành vi vi phạm liên\nquan trực tiếp đến tài chính, tài sản, tiết lộ bí mật công nghệ, bí mật kinh doanh của người sử dụng lao động thì\nthời hiệu xử lý kỷ luật lao động là 12 tháng.",
+        "metadata": {
+          "chapter": "CHƯƠNG_VIII",
+          "strategy": "B"
+        },
+        "score": 0.03102,
+        "strategy": "improved_hybrid_rerank",
+        "hit": true
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p80_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 80,
+        "text": "1. Người lao động bị khiển trách sau 03 tháng hoặc bị xử lý kỷ luật kéo dài thời hạn nâng lương sau 06 tháng\nhoặc bị xử lý kỷ luật cách chức sau 03 năm kể từ ngày bị xử lý, nếu không tiếp tục vi phạm kỷ luật lao động thì\nđương nhiên được xóa kỷ luật.\n2. Người lao động bị xử lý kỷ luật kéo dài thời hạn nâng lương sau khi chấp hành được một nửa thời hạn nếu sửa\nchữa tiến bộ thì có thể được người sử dụng lao động xét giảm thời hạn.\nĐiều 127. Các hành vi bị nghiêm cấm khi xử lý kỷ luật lao động\n1. Xâm phạm sức khỏe, danh dự, tính mạng, uy tín, nhân phẩm của người lao động.",
+        "metadata": {
+          "chapter": "CHƯƠNG_VIII",
+          "strategy": "B"
+        },
+        "score": 0.02991,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      }
+    ],
+    "context": "[bo-luat-lao-dong-2019_p73_b_0 | bo_luat_lao_dong_2019_clean.pdf | page 73]\nMục 1. KỶ LUẬT LAO ĐỘNG\nĐiều 117. Kỷ luật lao động\nKỷ luật lao động là những quy định về việc tuân theo thời gian, công nghệ và điều hành sản xuất, kinh doanh do\nngười sử dụng lao động ban hành trong nội quy lao động và do pháp luật quy định.\nĐiều 118. Nội quy lao động\n1. Người sử dụng lao động phải ban hành nội quy lao động, nếu sử dụng từ 10 người lao động trở lên thì nội quy\nlao động phải bằng văn bản.\n2. Nội dung nội quy lao động không được trái với pháp luật về lao động và quy định của pháp luật có liên quan.\nNội quy lao động bao gồm những nội dung chủ yếu sau đây:\n\n[bo-luat-lao-dong-2019_p80_b_1 | bo_luat_lao_dong_2019_clean.pdf | page 80]\n2. Phạt tiền, cắt lương thay việc xử lý kỷ luật lao động.\n3. Xử lý kỷ luật lao động đối với người lao động có hành vi vi phạm không được quy định trong nội quy lao động\nhoặc không thỏa thuận trong hợp đồng lao động đã giao kết hoặc pháp luật về lao động không có quy định.\nĐiều 128. Tạm đình chỉ công việc",
+    "context_ids": [
+      "bo-luat-lao-dong-2019_p73_b_0",
+      "bo-luat-lao-dong-2019_p80_b_1"
+    ],
+    "context_chars": 1035,
+    "elapsed_ms": 24.04,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "question": "Lao động nữ mang thai từ tháng thứ mấy thì người sử dụng lao động không được bố trí làm việc ban đêm, làm thêm giờ hoặc đi công tác xa?",
+    "filter": null,
+    "top_k": 4,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 85,
+        "evidence": "1. Người sử dụng lao động không được sử dụng người lao động làm việc ban đêm, làm thêm giờ và đi công tác\nxa trong trường hợp sau đây:\na) Mang thai từ tháng thứ 07 hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo;"
+      }
+    ],
+    "results": [
+      {
+        "id": "bo-luat-lao-dong-2019_p87_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 87,
+        "text": "1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá\n02 tháng.\nTrường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01\ntháng.\n2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo\nhiểm xã hội.\n3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm\nmột thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.",
+        "metadata": {
+          "chapter": "CHƯƠNG_X",
+          "strategy": "B"
+        },
+        "score": 0.03175,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p87_b_2",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 87,
+        "text": "5. Lao động nam khi vợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai\nhộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của\npháp luật về bảo hiểm xã hội.\nĐiều 140. Bảo đảm việc làm cho lao động nghỉ thai sản",
+        "metadata": {
+          "chapter": "CHƯƠNG_X",
+          "strategy": "B"
+        },
+        "score": 0.03128,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p87_b_1",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 87,
+        "text": "4. Trước khi hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, lao động nữ có thể trở lại làm việc khi\nđã nghỉ ít nhất được 04 tháng nhưng người lao động phải báo trước, được người sử dụng lao động đồng ý và có\nxác nhận của cơ sở khám bệnh, chữa bệnh có thẩm quyền về việc đi làm sớm không có hại cho sức khỏe của\nngười lao động. Trong trường hợp này, ngoài tiền lương của những ngày làm việc do người sử dụng lao động trả,\nlao động nữ vẫn tiếp tục được hưởng trợ cấp thai sản theo quy định của pháp luật về bảo hiểm xã hội.",
+        "metadata": {
+          "chapter": "CHƯƠNG_X",
+          "strategy": "B"
+        },
+        "score": 0.03089,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p61_b_2",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 61,
+        "text": "3. Người lao động làm thêm giờ vào ban đêm thì ngoài việc trả lương theo quy định tại khoản 1 và khoản 2 Điều\nnày, người lao động còn được trả thêm 20% tiền lương tính theo đơn giá tiền lương hoặc tiền lương theo công\nviệc làm vào ban ngày của ngày làm việc bình thường hoặc của ngày nghỉ hằng tuần hoặc của ngày nghỉ lễ, tết.",
+        "metadata": {
+          "chapter": "CHƯƠNG_VI",
+          "strategy": "B"
+        },
+        "score": 0.02879,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      }
+    ],
+    "context": "[bo-luat-lao-dong-2019_p87_b_0 | bo_luat_lao_dong_2019_clean.pdf | page 87]\n1. Lao động nữ được nghỉ thai sản trước và sau khi sinh con là 06 tháng; thời gian nghỉ trước khi sinh không quá\n02 tháng.\nTrường hợp lao động nữ sinh đôi trở lên thì tính từ con thứ 02 trở đi, cứ mỗi con, người mẹ được nghỉ thêm 01\ntháng.\n2. Trong thời gian nghỉ thai sản, lao động nữ được hưởng chế độ thai sản theo quy định của pháp luật về bảo\nhiểm xã hội.\n3. Hết thời gian nghỉ thai sản theo quy định tại khoản 1 Điều này, nếu có nhu cầu, lao động nữ có thể nghỉ thêm\nmột thời gian không hưởng lương sau khi thỏa thuận với người sử dụng lao động.\n\n[bo-luat-lao-dong-2019_p87_b_2 | bo_luat_lao_dong_2019_clean.pdf | page 87]\n5. Lao động nam khi vợ sinh con, người lao động nhận nuôi con nuôi dưới 06 tháng tuổi, lao động nữ mang thai\nhộ và người lao động là người mẹ nhờ mang thai hộ được nghỉ việc hưởng chế độ thai sản theo quy định của\npháp luật về bảo hiểm xã hội.\nĐiều 140. Bảo đảm việc làm cho lao động nghỉ thai sản",
+    "context_ids": [
+      "bo-luat-lao-dong-2019_p87_b_0",
+      "bo-luat-lao-dong-2019_p87_b_2"
+    ],
+    "context_chars": 1002,
+    "elapsed_ms": 21.0,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "question": "Thời giờ làm việc của lao động chưa đủ 15 tuổi được quy định tối đa là bao nhiêu giờ một ngày và một tuần?",
+    "filter": null,
+    "top_k": 4,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 91,
+        "evidence": "1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần;\nkhông được làm thêm giờ, làm việc vào ban đêm."
+      }
+    ],
+    "results": [
+      {
+        "id": "bo-luat-lao-dong-2019_p91_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 91,
+        "text": "4. Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định chi tiết Điều này.\nĐiều 146. Thời giờ làm việc của người chưa thành niên\n1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần;\nkhông được làm thêm giờ, làm việc vào ban đêm.\n2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ\ntrong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong\nmột số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.",
+        "metadata": {
+          "chapter": "CHƯƠNG_XI",
+          "strategy": "B"
+        },
+        "score": 0.04279,
+        "strategy": "improved_hybrid_rerank",
+        "hit": true
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p60_b_1",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 60,
+        "text": "1. Người lao động hưởng lương theo giờ, ngày, tuần thì được trả lương sau giờ, ngày, tuần làm việc hoặc được\ntrả gộp do hai bên thỏa thuận nhưng không quá 15 ngày phải được trả gộp một lần.\n2. Người lao động hưởng lương theo tháng được trả một tháng một lần hoặc nửa tháng một lần. Thời điểm trả\nlương do hai bên thỏa thuận và phải được ấn định vào một thời điểm có tính chu kỳ.",
+        "metadata": {
+          "chapter": "CHƯƠNG_VI",
+          "strategy": "B"
+        },
+        "score": 0.03944,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p90_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 90,
+        "text": "4. Người sử dụng lao động phải tạo cơ hội để lao động chưa thành niên được học văn hóa, giáo dục nghề nghiệp,\nđào tạo, bồi dưỡng, nâng cao trình độ kỹ năng nghề.\nĐiều 145. Sử dụng người chưa đủ 15 tuổi làm việc\n1. Khi sử dụng người chưa đủ 15 tuổi làm việc, người sử dụng lao động phải tuân theo quy định sau đây:\na) Phải giao kết hợp đồng lao động bằng văn bản với người chưa đủ 15 tuổi và người đại diện theo pháp luật của\nngười đó;\nb) Bố trí giờ làm việc không ảnh hưởng đến thời gian học tập của người chưa đủ 15 tuổi;",
+        "metadata": {
+          "chapter": "CHƯƠNG_XI",
+          "strategy": "B"
+        },
+        "score": 0.03822,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p89_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 89,
+        "text": "Điều 143. Lao động chưa thành niên\n1. Lao động chưa thành niên là người lao động chưa đủ 18 tuổi.\n2. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được làm công việc hoặc làm việc ở nơi làm việc quy định tại\nĐiều 147 của Bộ luật này.\n3. Người từ đủ 13 tuổi đến chưa đủ 15 tuổi chỉ được làm công việc nhẹ theo danh mục do Bộ trưởng Bộ Lao động\n- Thương binh và Xã hội ban hành.\n4. Người chưa đủ 13 tuổi chỉ được làm các công việc theo quy định tại khoản 3 Điều 145 của Bộ luật này.\nĐiều 144. Nguyên tắc sử dụng lao động chưa thành niên",
+        "metadata": {
+          "chapter": "CHƯƠNG_XI",
+          "strategy": "B"
+        },
+        "score": 0.03688,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      }
+    ],
+    "context": "[bo-luat-lao-dong-2019_p91_b_0 | bo_luat_lao_dong_2019_clean.pdf | page 91]\n4. Bộ trưởng Bộ Lao động - Thương binh và Xã hội quy định chi tiết Điều này.\nĐiều 146. Thời giờ làm việc của người chưa thành niên\n1. Thời giờ làm việc của người chưa đủ 15 tuổi không được quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần;\nkhông được làm thêm giờ, làm việc vào ban đêm.\n2. Thời giờ làm việc của người từ đủ 15 tuổi đến chưa đủ 18 tuổi không được quá 08 giờ trong 01 ngày và 40 giờ\ntrong 01 tuần. Người từ đủ 15 tuổi đến chưa đủ 18 tuổi có thể được làm thêm giờ, làm việc vào ban đêm trong\nmột số nghề, công việc theo danh mục do Bộ trưởng Bộ Lao động - Thương binh và Xã hội ban hành.\n\n[bo-luat-lao-dong-2019_p60_b_1 | bo_luat_lao_dong_2019_clean.pdf | page 60]\n1. Người lao động hưởng lương theo giờ, ngày, tuần thì được trả lương sau giờ, ngày, tuần làm việc hoặc được\ntrả gộp do hai bên thỏa thuận nhưng không quá 15 ngày phải được trả gộp một lần.\n2. Người lao động hưởng lương theo tháng được trả một tháng một lần hoặc nửa tháng một lần. Thời điểm trả\nlương do hai bên thỏa thuận và phải được ấn định vào một thời điểm có tính chu kỳ.",
+    "context_ids": [
+      "bo-luat-lao-dong-2019_p91_b_0",
+      "bo-luat-lao-dong-2019_p60_b_1"
+    ],
+    "context_chars": 1132,
+    "elapsed_ms": 21.43,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "question": "Người lao động làm thêm giờ vào ngày nghỉ lễ, tết thì được hưởng ít nhất bao nhiêu phần trăm lương?",
+    "filter": null,
+    "top_k": 4,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 61,
+        "evidence": "c) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ\ncó hưởng lương đối với người lao động hưởng lương ngày."
+      }
+    ],
+    "results": [
+      {
+        "id": "bo-luat-lao-dong-2019_p61_b_1",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 61,
+        "text": "1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công\nviệc đang làm như sau:\na) Vào ngày thường, ít nhất bằng 150%;\nb) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;\nc) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ\ncó hưởng lương đối với người lao động hưởng lương ngày.\n2. Người lao động làm việc vào ban đêm thì được trả thêm ít nhất bằng 30% tiền lương tính theo đơn giá tiền\nlương hoặc tiền lương thực trả theo công việc của ngày làm việc bình thường.",
+        "metadata": {
+          "chapter": "CHƯƠNG_VI",
+          "strategy": "B"
+        },
+        "score": 0.03279,
+        "strategy": "improved_hybrid_rerank",
+        "hit": true
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p61_b_2",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 61,
+        "text": "3. Người lao động làm thêm giờ vào ban đêm thì ngoài việc trả lương theo quy định tại khoản 1 và khoản 2 Điều\nnày, người lao động còn được trả thêm 20% tiền lương tính theo đơn giá tiền lương hoặc tiền lương theo công\nviệc làm vào ban ngày của ngày làm việc bình thường hoặc của ngày nghỉ hằng tuần hoặc của ngày nghỉ lễ, tết.",
+        "metadata": {
+          "chapter": "CHƯƠNG_VI",
+          "strategy": "B"
+        },
+        "score": 0.03226,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p66_b_1",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 66,
+        "text": "b) Bảo đảm số giờ làm thêm của người lao động không quá 50% số giờ làm việc bình thường trong 01 ngày;\ntrường hợp áp dụng quy định thời giờ làm việc bình thường theo tuần thì tổng số giờ làm việc bình thường và số\ngiờ làm thêm không quá 12 giờ trong 01 ngày; không quá 40 giờ trong 01 tháng;\nc) Bảo đảm số giờ làm thêm của người lao động không quá 200 giờ trong 01 năm, trừ trường hợp quy định tại\nkhoản 3 Điều này.\n3. Người sử dụng lao động được sử dụng người lao động làm thêm không quá 300 giờ trong 01 năm trong một số\nngành, nghề, công việc hoặc trường hợp sau đây:",
+        "metadata": {
+          "chapter": "CHƯƠNG_VII",
+          "strategy": "B"
+        },
+        "score": 0.03031,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p71_b_1",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 71,
+        "text": "Điều 114. Ngày nghỉ hằng năm tăng thêm theo thâm niên làm việc\nCứ đủ 05 năm làm việc cho một người sử dụng lao động thì số ngày nghỉ hằng năm của người lao động theo quy\nđịnh tại khoản 1 Điều 113 của Bộ luật này được tăng thêm tương ứng 01 ngày.\nĐiều 115. Nghỉ việc riêng, nghỉ không hưởng lương\n1. Người lao động được nghỉ việc riêng mà vẫn hưởng nguyên lương và phải thông báo với người sử dụng lao\nđộng trong trường hợp sau đây:\na) Kết hôn: nghỉ 03 ngày;\nb) Con đẻ, con nuôi kết hôn: nghỉ 01 ngày;",
+        "metadata": {
+          "chapter": "CHƯƠNG_VII",
+          "strategy": "B"
+        },
+        "score": 0.0303,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      }
+    ],
+    "context": "[bo-luat-lao-dong-2019_p61_b_1 | bo_luat_lao_dong_2019_clean.pdf | page 61]\n1. Người lao động làm thêm giờ được trả lương tính theo đơn giá tiền lương hoặc tiền lương thực trả theo công\nviệc đang làm như sau:\na) Vào ngày thường, ít nhất bằng 150%;\nb) Vào ngày nghỉ hằng tuần, ít nhất bằng 200%;\nc) Vào ngày nghỉ lễ, tết, ngày nghỉ có hưởng lương, ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ\ncó hưởng lương đối với người lao động hưởng lương ngày.\n2. Người lao động làm việc vào ban đêm thì được trả thêm ít nhất bằng 30% tiền lương tính theo đơn giá tiền\nlương hoặc tiền lương thực trả theo công việc của ngày làm việc bình thường.\n\n[bo-luat-lao-dong-2019_p61_b_2 | bo_luat_lao_dong_2019_clean.pdf | page 61]\n3. Người lao động làm thêm giờ vào ban đêm thì ngoài việc trả lương theo quy định tại khoản 1 và khoản 2 Điều\nnày, người lao động còn được trả thêm 20% tiền lương tính theo đơn giá tiền lương hoặc tiền lương theo công\nviệc làm vào ban ngày của ngày làm việc bình thường hoặc của ngày nghỉ hằng tuần hoặc của ngày nghỉ lễ, tết.",
+    "context_ids": [
+      "bo-luat-lao-dong-2019_p61_b_1",
+      "bo-luat-lao-dong-2019_p61_b_2"
+    ],
+    "context_chars": 1052,
+    "elapsed_ms": 21.55,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": true
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "question": "Bộ luật Lao động số 45/2019/QH14 chính thức có hiệu lực thi hành từ ngày nào?",
+    "filter": null,
+    "top_k": 4,
+    "budget_chars": 1200,
+    "gold": [
+      {
+        "source_id": "bo-luat-lao-dong-2019",
+        "page": 145,
+        "evidence": "1. Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021."
+      }
+    ],
+    "results": [
+      {
+        "id": "bo-luat-lao-dong-2019_p1_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 1,
+        "text": "Một số điểm mới bộ luật lao động năm 2019 của Cụ thể, kể từ ngày 01/01/2021, hợp đồng lao động sẽ\nđược giao kết theo một trong các loại sau đây:\n- Hợp đồng lao động không xác định thời hạn. - Hợp đồng lao động xác định thời hạn, trong đó hai bên xác định thời hạn, thời điểm chất dứt của\nhợp đồng lao động trong thời gian không quá 36 tháng kể từ thời điểm hợp đồng có hiệu lực. Như vậy, so với quy định hiện hành tại Bộ luật lao động 2012 thì sẽ không còn Hợp đồng lao động\ntheo mùa vụ.",
+        "metadata": {
+          "chapter": "CHƯƠNG_I",
+          "strategy": "B"
+        },
+        "score": 0.0358,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p1_b_1",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 1,
+        "text": "Mặt khác, Bộ luật Lao động 2019 (có hiệu lực vào ngày 01/01/2021) cho phép người lao động được\nđơn phương chấm dứt hợp đồng mà không cần báo trước trong một số trường hợp như:\n- Không được bố trí theo đúng công việc, địa điểm làm việc hoặc không được bảo đảm điều kiện\nlàm việc theo thỏa thuận, trừ trường hợp quy định tại Điều 29 Bộ luật này. - Không được trả đủ lương hoặc trả lương không đúng thời hạn, trừ trường hợp quy định tại Khoản\n4 Điều 97 Bộ luật này. - Bị quấy rối tình dục tại nơi làm việc…\n.",
+        "metadata": {
+          "chapter": "CHƯƠNG_I",
+          "strategy": "B"
+        },
+        "score": 0.03463,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p145_b_0",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 145,
+        "text": "1. Bộ luật này có hiệu lực thi hành từ ngày 01 tháng 01 năm 2021.\nBộ luật Lao động số 10/2012/QH13 hết hiệu lực thi hành kể từ ngày Bộ luật này có hiệu lực.\n2. Kể từ ngày Bộ luật này có hiệu lực thi hành, hợp đồng lao động, thỏa ước lao động tập thể, các thỏa thuận hợp\npháp đã giao kết có nội dung không trái hoặc bảo đảm cho người lao động có quyền và điều kiện thuận lợi hơn so\nvới quy định của Bộ luật này được tiếp tục thực hiện, trừ trường hợp các bên có thỏa thuận về việc sửa đổi, bổ\nsung để phù hợp và để áp dụng quy định của Bộ luật này.",
+        "metadata": {
+          "chapter": "CHƯƠNG_XVII",
+          "strategy": "B"
+        },
+        "score": 0.03279,
+        "strategy": "improved_hybrid_rerank",
+        "hit": true
+      },
+      {
+        "id": "bo-luat-lao-dong-2019_p76_b_1",
+        "source_id": "bo-luat-lao-dong-2019",
+        "source": "bo_luat_lao_dong_2019_clean.pdf",
+        "page": 76,
+        "text": "Điều 121. Hiệu lực của nội quy lao động\nNội quy lao động có hiệu lực sau 15 ngày kể từ ngày cơ quan nhà nước có thẩm quyền quy định tại Điều 119 của\nBộ luật này nhận được đầy đủ hồ sơ đăng ký nội quy lao động.\nTrường hợp người sử dụng lao động sử dụng dưới 10 người lao động ban hành nội quy lao động bằng văn bản\nthì hiệu lực do người sử dụng lao động quyết định trong nội quy lao động.\nĐiều 122. Nguyên tắc, trình tự, thủ tục xử lý kỷ luật lao động\n1. Việc xử lý kỷ luật lao động được quy định như sau:\na) Người sử dụng lao động phải chứng minh được lỗi của người lao động;",
+        "metadata": {
+          "chapter": "CHƯƠNG_VIII",
+          "strategy": "B"
+        },
+        "score": 0.03128,
+        "strategy": "improved_hybrid_rerank",
+        "hit": false
+      }
+    ],
+    "context": "[bo-luat-lao-dong-2019_p1_b_0 | bo_luat_lao_dong_2019_clean.pdf | page 1]\nMột số điểm mới bộ luật lao động năm 2019 của Cụ thể, kể từ ngày 01/01/2021, hợp đồng lao động sẽ\nđược giao kết theo một trong các loại sau đây:\n- Hợp đồng lao động không xác định thời hạn. - Hợp đồng lao động xác định thời hạn, trong đó hai bên xác định thời hạn, thời điểm chất dứt của\nhợp đồng lao động trong thời gian không quá 36 tháng kể từ thời điểm hợp đồng có hiệu lực. Như vậy, so với quy định hiện hành tại Bộ luật lao động 2012 thì sẽ không còn Hợp đồng lao động\ntheo mùa vụ.\n\n[bo-luat-lao-dong-2019_p1_b_1 | bo_luat_lao_dong_2019_clean.pdf | page 1]\nMặt khác, Bộ luật Lao động 2019 (có hiệu lực vào ngày 01/01/2021) cho phép người lao động được\nđơn phương chấm dứt hợp đồng mà không cần báo trước trong một số trường hợp như:\n- Không được bố trí theo đúng công việc, địa điểm làm việc hoặc không được bảo đảm điều kiện\nlàm việc theo thỏa thuận, trừ trường hợp quy định tại Điều 29 Bộ luật này. - Không được trả đủ lương hoặc trả lương không đúng thời hạn, trừ trường hợp quy định tại Khoản\n4 Điều 97 Bộ luật này. - Bị quấy rối tình dục tại nơi làm việc…\n.",
+    "context_ids": [
+      "bo-luat-lao-dong-2019_p1_b_0",
+      "bo-luat-lao-dong-2019_p1_b_1"
+    ],
+    "context_chars": 1142,
+    "elapsed_ms": 18.71,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  }
+]

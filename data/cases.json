@@ -1,0 +1,194 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Độ tuổi lao động tối thiểu của người lao động theo Bộ luật Lao động 2019 là bao nhiêu tuổi?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Đủ 15 tuổi (trừ trường hợp quy định tại Mục 1 Chương XI)"
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Hành vi phân biệt đối xử trong lao động có bị nghiêm cấm theo luật không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Có, phân biệt đối xử trong lao động là hành vi bị nghiêm cấm."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Bộ luật Lao động 2019 quy định hợp đồng lao động được giao kết theo những loại nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Hợp đồng lao động không xác định thời hạn và hợp đồng lao động xác định thời hạn (không quá 36 tháng)."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Thời gian thử việc tối đa đối với công việc của người quản lý doanh nghiệp là bao nhiêu ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không quá 180 ngày"
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Tiền lương của người lao động trong thời gian thử việc ít nhất phải bằng bao nhiêu phần trăm mức lương của công việc đó?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất bằng 85% mức lương của công việc đó."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Có được áp dụng thử việc đối với người lao động ký hợp đồng lao động có thời hạn dưới 01 tháng không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không áp dụng thử việc đối với hợp đồng lao động có thời hạn dưới 01 tháng."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Người làm việc bán thời gian (không trọn thời gian) có bị đối xử bất bình đẳng so với người làm việc trọn thời gian không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không, người làm việc không trọn thời gian được bình đẳng trong việc thực hiện quyền và nghĩa vụ, bình đẳng về cơ hội và không bị phân biệt đối xử."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Tiền lương làm căn cứ để tính tiền trợ cấp thôi việc cho người lao động được xác định như thế nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Là tiền lương bình quân của 06 tháng liền kề theo hợp đồng lao động trước khi thôi việc."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Người sử dụng lao động có được ép buộc người lao động phải mua hàng hóa, dịch vụ của doanh nghiệp mình bằng tiền lương không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không được ép buộc người lao động chi tiêu lương vào việc mua hàng hóa, sử dụng dịch vụ của người sử dụng lao động hoặc của đơn vị khác."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Người lao động làm thêm giờ vào ngày nghỉ hằng tuần được trả lương ít nhất bằng bao nhiêu phần trăm lương bình thường?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất bằng 200%"
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Thời giờ làm việc bình thường của người lao động không được vượt quá bao nhiêu giờ trong một ngày và trong một tuần?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không quá 08 giờ trong 01 ngày và không quá 48 giờ trong 01 tuần."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Khi làm việc theo ca vào ban đêm, người lao động được nghỉ giữa giờ ít nhất bao nhiêu phút liên tục?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất 45 phút liên tục."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Dịp lễ Quốc khánh nước ta, người lao động được nghỉ làm việc và hưởng nguyên lương trong mấy ngày?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "02 ngày (ngày 02 tháng 9 dương lịch và 01 ngày liền kề trước hoặc sau)."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Người sử dụng lao động có được kỷ luật lao động đối với nhân viên đang trong thời gian nghỉ ốm đau, điều dưỡng không?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không được xử lý kỷ luật lao động trong thời gian nghỉ ốm đau, điều dưỡng."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Thời hiệu xử lý kỷ luật lao động đối với các hành vi thông thường là bao lâu kể từ ngày xảy ra vi phạm?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "06 tháng kể từ ngày xảy ra hành vi vi phạm."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Bộ luật Lao động 2019 quy định bao nhiêu hình thức xử lý kỷ luật lao động?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Có 04 hình thức: Khiển trách; Kéo dài thời hạn nâng lương không quá 06 tháng; Cách chức; Sa thải."
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Lao động nữ mang thai từ tháng thứ mấy thì người sử dụng lao động không được bố trí làm việc ban đêm, làm thêm giờ hoặc đi công tác xa?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Từ tháng thứ 07 (hoặc từ tháng thứ 06 nếu làm việc ở vùng cao, vùng sâu, vùng xa, biên giới, hải đảo)."
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Thời giờ làm việc của lao động chưa đủ 15 tuổi được quy định tối đa là bao nhiêu giờ một ngày và một tuần?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Không quá 04 giờ trong 01 ngày và 20 giờ trong 01 tuần."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Người lao động làm thêm giờ vào ngày nghỉ lễ, tết thì được hưởng ít nhất bao nhiêu phần trăm lương?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Ít nhất bằng 300% chưa kể tiền lương ngày lễ, tết, ngày nghỉ có hưởng lương đối với người lao động hưởng lương ngày."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Bộ luật Lao động số 45/2019/QH14 chính thức có hiệu lực thi hành từ ngày nào?",
+    "answerable": true,
+    "expected_behavior": "search_and_answer",
+    "expected_answer": "Từ ngày 01 tháng 01 năm 2021."
+  },
+  {
+    "id": "q_unans_dev_1",
+    "split": "dev",
+    "question": "Mức đóng bảo hiểm y tế hộ gia đình hiện nay theo Luật Bảo hiểm Y tế là bao nhiêu phần trăm mức lương cơ sở?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Nội dung thuộc Luật Bảo hiểm Y tế, không quy định trong Bộ luật Lao động 2019."
+  },
+  {
+    "id": "q_unans_dev_2",
+    "split": "dev",
+    "question": "Người điều khiển xe máy đi vào đường cao tốc bị xử phạt vi phạm hành chính bao nhiêu tiền theo quy định pháp luật?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Nội dung thuộc quy định xử phạt vi phạm giao thông đường bộ, không có trong Bộ luật Lao động 2019."
+  },
+  {
+    "id": "q_unans_test_1",
+    "split": "test",
+    "question": "Mức thuế suất thuế thu nhập cá nhân đối với bậc thu nhập trên 80 triệu đồng/tháng theo biểu thuế lũy tiến từng phần là bao nhiêu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Nội dung thuộc Luật Thuế Thu nhập Cá nhân, không thuộc phạm vi Bộ luật Lao động 2019."
+  },
+  {
+    "id": "q_unans_test_2",
+    "split": "test",
+    "question": "Thời hạn tối đa tạm giam bị can để phục vụ công tác điều tra tội phạm ít nghiêm trọng theo Bộ luật Tố tụng Hình sự là bao lâu?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Nội dung thuộc Bộ luật Tố tụng Hình sự, không có trong Bộ luật Lao động 2019."
+  }
+]
