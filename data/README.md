@@ -1,9 +1,8 @@
-# Định dạng dữ liệu
+# Định dạng dữ liệu Day 7
 
-Các file `example_*.json` chỉ minh họa định dạng, không đủ để nộp bài. Dữ liệu thật là JSON array UTF-8; nếu dùng định dạng khác, ghi cách chuyển trong README.
+Dữ liệu được chuẩn bị từ văn bản Bộ luật Lao động Việt Nam năm 2019 (Luật số 45/2019/QH14):
 
-- **Chunk:** `id`, `text`, `source_id`, `source`, `page`, `metadata`. ID phải duy nhất; giữ phiên bản hoặc ngày nếu có.
-- **Câu có đáp án:** `id`, `split` (`dev` hoặc `test`), `question`, `expected_answer`, `gold`: danh sách `{source_id, page, evidence}`. Với schema mẫu, mỗi evidence phải nằm trọn trong một chunk đúng nguồn và trang; các phần tử `gold` là evidence thay thế. Với câu multi-hop cần nhiều đoạn, bạn có thể mở rộng schema, ghi rõ nhóm evidence bắt buộc và cách chấm. Có thể thêm `filter` do người dùng cung cấp trước.
-- **Câu thiếu evidence:** `id`, `split`, `question`, `answerable: false`, `expected_behavior: "search_and_abstain"`, `absence_reason`. Xem `agent_cases_example.json`.
-
-Không đưa `gold` hoặc nhãn đáp án vào model và retrieval tool. Ghi nguồn dữ liệu và quyền sử dụng. Cách chuyển một số định dạng Day 6: [starter/README.md](../starter/README.md).
+- `chunks.json`: Tập hợp 436 chunks văn bản pháp lý kế thừa từ Strategy B của Day 6. Mỗi chunk bao gồm: `id`, `source_id`, `source`, `page`, `text`, `metadata` (`chapter`, `strategy`).
+- `questions.json`: Bộ 20 câu hỏi có đáp án (`15 dev` + `5 test`) phục vụ đánh giá retrieval độc lập qua `baseline.py`. Mỗi câu có `id`, `split`, `question`, `expected_answer`, `gold` (chuỗi ký tự nguyên văn *verbatim substring* khớp với chunk).
+- `cases.json`: Bộ 24 câu hỏi benchmark phục vụ đánh giá Agent (`17 dev` + `7 test`). Bao gồm 20 câu có đáp án và 4 câu thiếu bằng chứng ngoài phạm vi (`q_unans_dev_1`, `q_unans_dev_2`, `q_unans_test_1`, `q_unans_test_2`) để kiểm thử năng lực từ chối (*abstention*).
+- `example_*.json`: Các tệp dữ liệu mẫu ban đầu từ ban tổ chức.
